@@ -1,3 +1,5 @@
+package(default_visibility = ["//visibility:public"])
+
 licenses(["by_exception_only"])
 
 exports_files(["LICENSE"])
