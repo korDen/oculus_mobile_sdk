@@ -10,3 +10,10 @@ cc_library(
         "//third_party/oculus/mobile/VrApi:vrapi",
     ],
 )
+
+cc_library(
+    name = "oculus_mobile_debug",
+    deps = [
+        "//third_party/oculus/mobile/VrApi:vrapi_debug",
+    ],
+)

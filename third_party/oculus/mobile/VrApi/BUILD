@@ -16,6 +16,7 @@ cc_library(
     hdrs = glob([
         "Include/*.h",
     ]),
+    visibility = ["//third_party/oculus/mobile:__pkg__"],
 )
 
 cc_library(
@@ -32,5 +33,5 @@ cc_library(
     hdrs = glob([
         "Include/*.h",
     ]),
-    visibility = ["//third_party/oculus/mobile:__subpackages__"],
+    visibility = ["//third_party/oculus/mobile:__pkg__"],
 )
